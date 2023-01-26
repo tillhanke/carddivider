@@ -1,6 +1,6 @@
 % Basic settings for this card set
 \renewcommand{\cardcolor}{menagerie}
-\renewcommand{\cardextension}{Erweiterung XI}
+\renewcommand{\cardextension}{Erweiterung XII}
 \renewcommand{\cardextensiontitle}{Menagerie}
 \renewcommand{\seticon}{menagerie.png}
 
@@ -11,31 +11,12 @@
 \begin{tikzpicture}
 	\card
 	\cardstrip
-	\cardbanner{banner/white.png}
-	\cardicon{icons/coin.png}
-	\cardprice{}
-	\cardtitle{}
-	\cardcontent{}
-\end{tikzpicture}
-\hspace{-0.6cm}
-\begin{tikzpicture}
-	\card
-	\cardstrip
 	\cardbanner{banner/gold.png}
 	\cardicon{icons/coin.png}
-	\cardprice{}
-	\cardtitle{}
-	\cardcontent{}
-\end{tikzpicture}
-\hspace{-0.6cm}
-\begin{tikzpicture}
-	\card
-	\cardstrip
-	\cardbanner{banner/purple.png}
-	\cardicon{icons/coin.png}
-	\cardprice{}
-	\cardtitle{}
-	\cardcontent{}
+	\cardprice{2}
+	\cardtitle{Nachschub}
+	\cardcontent{Dies ist eine Geldkarte mit dem Geldwert \coin[1], wie \emph{KUPFER}; du spielst sie normalerweise in deiner Kaufphase. Wenn du diese Karte spielst, nimm ein \emph{PFERD}
+	und lege es sofort auf deinen Nachziehstapel.}
 \end{tikzpicture}
 \hspace{-0.6cm}
 \begin{tikzpicture}
@@ -43,23 +24,910 @@
 	\cardstrip
 	\cardbanner{banner/blue.png}
 	\cardicon{icons/coin.png}
-	\cardprice{}
-	\cardiconaddition{icons/hex.png}
-	\cardpriceaddition{}
-	\cardtitle{}
-	\cardcontent{}
+	\cardprice{2}
+	\cardtitle{Schlitten}
+	\cardcontent{Normalerweise nimmst du eine Karte auf deinen Ablagestapel, kannst dann den \emph{SCHLITTEN} aus deiner Hand ablegen, holst die genommene Karte unter dem \emph{SCHLITTEN} hervor und bewegst sie auf deine Hand oder auf deinen Nachziehstapel. Wenn eine genommene Karte an irgendeinen anderen Ort gelegt wird als auf deinen Ablagestapel (z.B. das \emph{SILBER}, das du durch den \emph{BÜROKRATEN} nimmst), kann der \emph{SCHLITTEN} sie trotzdem in deine Hand oder auf deinen Nachziehstapel bewegen. Wenn schon etwas anderes die Karte bewegt hat, kannst du zwar immer noch mit dem \emph{SCHLITTEN} reagieren, aber die Karte nicht mehr bewegen.}
 \end{tikzpicture}
 \hspace{-0.6cm}
 \begin{tikzpicture}
 	\card
 	\cardstrip
-	\cardbanner{banner/green.png}
+	\cardbanner{banner/blue.png}
 	\cardicon{icons/coin.png}
-	\cardprice{}
-	\cardiconaddition{icons/potion.png}
-	\cardpriceaddition{}
-	\cardtitle{}
-	\cardcontent{}
+	\cardprice{2}
+	\cardtitle{\scriptsize{Schwarze Katze}}
+	\cardcontent{Wenn du diese Karte in deinem Zug spielst, ziehst du 2 Karten. Wenn du sie im Zug eines Mitspielers spielst, was normalerweise nur als Reaktion möglich ist, ziehst du 2 Karten und alle Mitspieler nehmen einen \emph{FLUCH}, und zwar in Zugreihenfolge beginnend bei dem Spieler, der am Zug ist.
+	
+	\smallskip
+	
+	Wenn ein Mitspieler eine Punktekarte nimmt, unabhängig davon, ob du am Zug bist oder nicht, darfst du diese Karte aus deiner Hand spielen (siehe NEUE REGELN, Reaktionskarten).}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/gold.png}
+	\cardicon{icons/coin.png}
+	\cardprice{3}
+	\cardtitle{Depot}
+	\cardcontent{Dies ist eine Geldkarte mit dem Geldwert \coin[3], wie \emph{GOLD}; du spielst sie normalerweise in deiner Kaufphase. Wenn du diese Karte spielst, erhältst du +1 Kauf und
+	legst sie auf dein \emph{Exil}-Tableau. Wenn du diese Karte durch eine Karte wie die \emph{KRONE} (aus \emph{Empires}) zweimal spielst, erhältst du insgesamt +\coin[6] und +2 Käufe, auch wenn	du sie nur einmal verbannen konntest.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/blue.png}
+	\cardicon{icons/coin.png}
+	\cardprice{3}
+	\cardtitle{Hirtenhund}
+	\cardcontent{Du kannst diese Karte als Reaktion spielen, wenn du eine Karte durch Kauf nimmst, wenn du eine Karte auf eine andere Art und Weise nimmst wie z.B. durch eine \emph{FALKNERIN} oder sogar, wenn du eine Karte während des Zuges eines Mitspielers nimmst, wie z.B. durch eine \emph{SCHWARZE KATZE}. Denke daran, dass du normalerweise in einer Kaufphase keine Geldkarten mehr spielen kannst, in der du schon eine Karte gekauft hast. Wenn du den \emph{HIRTENHUND} auf die Hand nimmst, z.B. durch eine \emph{FALKNERIN}, kannst du auf dieses Nehmen reagieren und den \emph{HIRTENHUND} spielen (siehe NEUE REGELN,  Reaktionskarten).}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{3}
+	\cardtitle{Kamelzug}
+	\cardcontent{Wenn du diese Karte spielst, verbannst du eine Nicht-Punktekarte aus dem Vorrat. Wenn du diese Karte nimmst, verbannst du ein \emph{GOLD} aus dem Vorrat.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{3}
+	\cardtitle{Schrott}
+	\cardcontent{Du entsorgst erst eine Karte, wählst einen unterschiedlichen Bonus je \coin[1], das die Karte kostet, und führst die Boni dann in der aufgelisteten Reihenfolge aus. Beispiel: Du entsorgst ein \emph{ANWESEN}, wählst \enquote{+1 Karte} und \enquote{nimm ein \emph{PFERD}} ziehst eine Karte und nimmst dann ein \emph{PFERD}.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{3}
+	\cardtitle{\tiny{Verschneites Dorf}}
+	\cardcontent{Alle zusätzlichen Aktionen, die du schon hattest, bevor du diese Karte gespielt hast, verfallen nicht, auch z.B. zurückgelegte \emph{DORFBEWOHNER} (aus \emph{Renaissance}). Wenn du z.B. das \emph{DORF} spielst und dann das \emph{VERSCHNEITE DORF}, hast du 5 weitere Aktionen danach. Alle weiteren +X Aktionen, die du in diesem Zug noch erhältst, stehen dir nicht zur Verfügung, einschließlich diejenigen vom Spielen eines weiteren \emph{VERSCHNEITEN DORFES} oder vom Eintausch von \emph{DORFBEWOHNERN} (aus \emph{Renaissance}). Anweisungen, die dich anderweitig dazu auffordern, weitere Karten zu spielen, z.B. durch den \emph{THRONSAAL}, sind nicht betroffen nur explizite +X Aktionen!}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{3}
+	\cardtitle{Ziegenhirtin}
+	\cardcontent{Du ziehst Karten, auch wenn du keine Karte entsorgt hast. Eine Möglichkeit, um die Anzahl der entsorgten Karten zu verfolgen, ist sie um 90 Grad gedreht in den Müll zu legen.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/orangeblue.png}
+	\cardicon{icons/coin.png}
+	\cardprice{4}
+	\cardtitle{\scriptsize{Dorfanger (1/2)}}
+	\cardcontent{Wenn du den \emph{DORFANGER} spielst, wähle aus, ob du +1 Karte und +2 Aktionen sofort ausführst oder zu Beginn deines nächsten Zuges.
+
+	\begin{itemize}
+		\item[\rightarrow] Wenn du \enquote{sofort} auswählst, wird der \emph{DORFANGER} in der Aufräumphase dieses Zuges abgelegt.
+		\item[\rightarrow] Wenn du \enquote{zu Beginn deines nächsten Zuges} auswählst, wird der \emph{DORFANGER} in deinem nächsten Zug abgelegt.
+	\end{itemize}
+	
+	Wenn du den \emph{DORFANGER} mehrmals spielst, wie z.B. mit dem \emph{DRAHTZIEHER}, wählst du jedes Mal, ob du +1 Karte und +2 Aktionen sofort oder zu Beginn deines nächsten Zuges ausführst. Der \emph{DORFANGER} bleibt dann nur bis zu deinem nächsten Zug im Spiel, wenn du dich mindestens bei einem Spielen des \emph{DORFANGERS} für eine Nutzung im nächsten Zug entschieden hast (in diesem Fall bleibt der \emph{DRAHTZIEHER} auch im Spiel).
+
+	\smallskip
+
+	Die Reaktionsfähigkeit unterhalb der Trennlinie gilt nicht, wenn der \emph{DORFANGER} z.B. durch einen Kauf oder den \emph{LUMPENSAMMLER} (aus \emph{Dark Ages}) in deinen Ablagestapel gelegt wird, ohne im spieltechnischen Sinne abgelegt zu werden. Es muss eine Spielsituation oder eine Karte geben, die dir explizit das \enquote{Ablegen} des \emph{DORFANGERS} erlaubt.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/orangeblue.png}
+	\cardicon{icons/coin.png}
+	\cardprice{4}
+	\cardtitle{\scriptsize{Dorfanger (2/2)}}
+	\cardcontent{Legst du den \emph{DORFANGER} außerhalb der Aufräumphase ab (was nur geht, wenn dich etwas dazu veranlasst bzw. es dir erlaubt; die Karte selbst gibt dir nicht das Recht, dies zu tun), kannst du ihn spielen. Das geht aber nur, wenn du den \emph{DORFANGER} in dem Moment, wo du ihn spielen willst, auch aus dem Ablagestapel (wo du ihn gerade hingelegt hast) aufdecken kannst. Tust du das nicht, weil er z.B. in den Nachziehstapel gemischt wurde, kannst du ihn nicht spielen. Dies funktioniert unabhängig davon, ob du am Zug bist oder ein Mitspieler, und unabhängig davon, ob du den \emph{DORFANGER} aktuell zur Seite gelegt hast, ihn aus deiner Hand ablegst, vom Nachziehstapel (wie z.B. mit dem \emph{KARDINAL}) oder aus dem \emph{Exil}.
+
+	\smallskip
+
+	Wenn du den \emph{DORFANGER} spielst, während du nicht am Zug bist, und auswählst, Karte und +2 Aktionen sofort auszuführen, haben die +2 Aktionen keinen Nutzen für dich (siehe NEUE REGELN, Reaktionskarten).}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{4}
+	\cardtitle{Herberge}
+	\cardcontent{Wenn du diese Karte nimmst, darfst du eine beliebige Anzahl an Geldkarten aus deiner Hand aufgedeckt ablegen und entsprechend der Anzahl \emph{PFERDE} vom \emph{PFERDE}-Stapel nehmen. Du musst nichts ablegen (nimmst dafür aber auch keine \emph{PFERDE}) und darfst nichts anderes ablegen als Geldkarten.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{4}
+	\cardtitle{Kardinal}
+	\cardcontent{Wenn ein angegriffener Spieler zwei Karten aufdeckt, die jeweils zwischen \coin[3] und \coin[6] kosten, wählt dieser Spieler selbst aus, welche Karte er verbannt. Karten, die neben \coin noch andere Kosten enthalten, wie \potion (aus \emph{Alchemisten}) oder \hex (aus \emph{Empires}), kosten niemals zwischen \coin[3] und \coin[6].}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{4}
+	\cardtitle{Kavallerie}
+	\cardcontent{Wenn du diese Karte nimmst, kommt ihre Anweisung unterhalb der Trennlinie zum Einsatz -- sie wird dadurch aber nicht gespielt oder befindet sich im Spiel.
+
+	\smallskip
+
+	Wenn du sie in deiner Kaufphase nimmst, erhältst du +2 Karten, +1 Kauf und kehrst in deine  Aktionsphase zurück. Wenn du diese Karte in einer anderen Phase oder während des Zuges eines  Mitspielers nimmst, erhältst du +2 Karten und +1 Kauf. +1 Kauf nützt dir nichts, wenn du nicht am Zug bist. In deine Aktionsphase zurückzukehren bedeutet nicht, dass sich \enquote{zu Beginn deines Zuges}-Fähigkeiten wiederholen. Wenn aber deine Kaufphase danach wieder stattfindet, können sich \enquote{zu Beginn der Kaufphase}-Fähigkeiten wiederholen. In deine Aktionsphase zurückzukehren gibt dir keine +X Aktionen. Dir bleiben so viele Aktionen wie dir zu dem Zeitpunkt zur Verfügung stehen.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{4}
+	\cardtitle{\scriptsize{Kopfgeldjägerin}}
+	\cardcontent{Zuerst erhältst du +1 Aktion und verbannst eine Karte aus deiner Hand auf dein \emph{Exil}-Tableau; dies ist nicht optional. Wenn dies dann die einzige Karte dieses Namens in deinem \emph{Exil} ist, erhältst du +\coin[3]. Wenn du keine Karte verbannen kannst -- weil du z.B. keine Handkarten mehr hast -- erhältst du nicht +\coin[3].}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{4}
+	\cardtitle{Stallbursche}
+	\cardcontent{Du nimmst zuerst eine Karte und wendest dann die Boni in der Reihenfolge an, in der sie aufgeführt sind. Eine Karte kann dir -- wenn es sich um eine Karte mit mehreren Typen handelt -- mehrere Boni bringen: Wenn du z.B. eine \emph{MÜHLE} (aus \emph{Intrige}) nimmst, nimmst du dir ein \emph{PFERD} und erhältst dann +1 Karte und +1 Aktion.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{5}
+	\cardtitle{Vertreibung}
+	\cardcontent{Die Karte, die du nimmst, muss nicht mehr kosten als die Karte, die du verbannt hast. Du könntest z.B. eine \emph{PROVINZ} verbannen und ein \emph{GOLD} nehmen.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{5}
+	\cardtitle{Brennofen}
+	\cardcontent{Mit dem \emph{BRENNOFEN} kannst du jede Art von Karte nehmen (aber nur aus dem Vorrat), solange du eine gleiche Karte direkt nach dem \emph{BRENNOFEN} spielst. Du nimmst (optional) eine Karte bevor du die Anweisungen auf der gespielten Karte befolgst. Ist die Karte eine Angriffskarte und andere Spieler möchten mit Reaktionskarten wie dem \emph{BURGGRABEN} (aus dem \emph{Basisspiel}) reagieren, nimmst du die Karte, bevor sie entscheiden, ob sie den \emph{BURGGRABEN} aufdecken oder nicht.
+	\\
+	Wenn du den \emph{THRONSAAL} (aus dem \emph{Basisspiel}) auf den \emph{BRENNOFEN} anwendest, spielst du den \emph{BRENNOFEN} und noch einmal den \emph{BRENNOFEN}. Das erste Spielen des \emph{BRENNOFENS} bewirkt, dass du von der nächsten gespielten Karte (dem \emph{BRENNOFEN}) eine gleiche Karte nehmen darfst -- das zweite Spielen des \emph{BRENNOFENS} bewirkt, dass du von der danach gespielten Karte ebenfalls eine gleiche Karte nehmen darfst.
+	\\
+	Ist deine nächste gespielte Karte eine Aktionskarte und du benutzt für sie einen Weg, bewirkt das keine spezielle Interaktion mit dem \emph{BRENNOFEN}. Du darfst trotzdem (optional) eine gleiche Karte nehmen.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/orange.png}
+	\cardicon{icons/coin.png}
+	\cardprice{5}
+	\cardtitle{Drahtzieher}
+	\cardcontent{Den \emph{DRAHTZIEHER} auf eine Aktionskarte anzuwenden ist optional. Wenn du es tust, führe die Anweisungen der Karte komplett aus, spiele sie dann zum zweiten Mal und spiele sie dann zum dritten Mal, ohne eine andere Karte dazwischen zu spielen (außer wenn du von einer Karte angewiesen wirst). Das dreimalige Spielen der Aktionskarte verbraucht keine Aktionen. Wenn du z.B. mit dem \emph{DRAHTZIEHER} eine \emph{KOPFGELDJÄGERIN} dreimal spielst, erhältst du insgesamt +3 Aktionen und kannst danach 4 Aktionskarten spielen: deine normale Aktion plus 3 weitere für die +3 Aktionen.
+	\\
+	Spielst du eine Dauerkarte mit dem \emph{DRAHTZIEHER}, bleibt der \emph{DRAHTZIEHER} so lange im Spiel wie die Dauerkarte. Spielt ein \emph{DRAHTZIEHER} einen anderen \emph{DRAHTZIEHER}, bleiben beide im Spiel, und im Zug danach darfst du drei verschiedene (es können auch gleiche darunter sein) Aktionskarten aus deiner Hand je dreimal spielen.
+	\\
+	Spielst du ein \emph{PFERD} mit dem \emph{DRAHTZIEHER}, erhältst du +2 Karten und +1 Aktion, legst das \emph{PFERD} auf den \emph{PFERDE}-Stapel zurück, erhältst +2 Karten und +1 Aktion, legst das \emph{PFERD} nicht zurück, weil du dies schon getan hast, erhältst zum dritten Mal +2 Karten und +1 Aktion und kannst wieder das \emph{PFERD} nicht zurücklegen.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/blue.png}
+	\cardicon{icons/coin.png}
+	\cardprice{5}
+	\cardtitle{Falknerin}
+	\cardcontent{Wenn du diese Karte spielst, nimmst du eine Karte, die aus dem Vorrat stammt und weniger kostet, auf die Hand.
+
+	\smallskip
+
+	Du kannst mit dieser Karte auf jede genommene Karte reagieren, die 2 oder mehr Typen hat. Dies kann eine Karte sein, die gekauft wurde, oder eine Karte, die auf eine andere Art und Weise genommen wurde, wie durch eine andere \emph{FALKNERIN}. Du kannst das unabhängig davon tun, wer die Karte genommen hat, du oder ein Mitspieler, und unabhängig davon, wer am Zug ist.
+
+	\smallskip
+
+	Wenn du die \emph{FALKNERIN} auf die Hand nimmst, wie z.B. durch eine \emph{TÖPFEREI} (aus dem \emph{Basisspiel 2. Edition}), kannst du auf dieses Nehmen reagieren und sie direkt spielen, da sie zwei Typen hat (siehe NEUE REGELN, Reaktionskarten).}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{5*}
+	\cardtitle{Fischer}
+	\cardcontent{Diese Karte kostet normalerweise \coin[5], aber nur \coin[2], wenn du gerade einen leeren Ablagestapel hast.
+	\\
+	Wenn du \coin[4] und 2 Käufe zur Verfügung hast sowie einen leeren Ablagestapel, kannst du einen \emph{FISCHER} für \coin[2] kaufen, aber dann hast du keinen leeren Ablagestapel mehr und kannst also keinen zweiten für \coin[2] kaufen (siehe \enquote{Kosten mit einem *}).}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{5}
+	\cardtitle{Hexenzirkel}
+	\cardcontent{Flüche werden in Zugreihenfolge verbannt (beginnend bei dem im Uhrzeigersinn auf den aktuellen Spieler folgenden Spieler). Es ist möglich, dass ein Spieler einen \emph{FLUCH} verbannt, während ein Mitspieler die \emph{Flüche} von seinem \emph{Exil}-Tableau ablegt.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{5}
+	\cardtitle{Jagdhütte}
+	\cardcontent{Wenn du diese Karte spielst, ziehst du zuerst eine Karte und erhältst dann +2 Aktionen. Dann entscheidest du, ob du deine Handkarten ablegen möchtest (die dann auch die Karte enthalten, die du soeben gezogen hast). Wenn du deine Handkarten ablegst, ziehst du 5 Karten (was dazu führen kann, dass du deine abgelegten Karten mischen musst).}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{5}
+	\cardtitle{Koppel}
+	\cardcontent{Mit dieser Karte überprüfst du nur die Anzahl der leeren Stapel, wenn du sie spielst. Wie viele +X Aktionen du bekommen hast, ändert sich nicht, wenn ein Stapel später im Zug leer wird (oder wieder Karten enthält, wie mit dem \emph{BOTSCHAFTER} aus \emph{Seaside}). Bei dieser Karte werden nur Vorratsstapel gezählt, keine Stapel, die nicht zum Vorrat gehören, wie der \emph{PFERDE}-Stapel.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/orange.png}
+	\cardicon{icons/coin.png}
+	\cardprice{5}
+	\cardtitle{Lastkahn}
+	\cardcontent{Wenn du den \emph{LASTKAHN} spielst, wähle aus, ob du +3 Karten und +1 Kauf sofort ausführst oder zu Beginn deines nächsten Zuges. Wenn du \enquote{sofort} auswählst, wird der \emph{LASTKAHN} in der Aufräumphase dieses Zuges abgelegt. Wenn du \enquote{zu Beginn deines nächsten Zuges} auswählst, wird der \emph{LASTKAHN} in deinem nächsten Zug abgelegt.
+
+	\smallskip
+
+	Wenn du den \emph{LASTKAHN} mehrmals spielst, wie z.B. mit dem \emph{DRAHTZIEHER}, wählst du jedes Mal, ob du +3 Karten und +1 Kauf sofort oder zu Beginn deines nächsten Zuges ausführst, und der \emph{LASTKAHN} bleibt nur bis zu deinem nächsten Zug im Spiel, wenn du dich bei mindestens einem Spielen des \emph{LASTKAHNS} für eine Ausführung zu Beginn deines nächsten Zuges entschieden hast (in diesem Fall bleibt der \emph{DRAHTZIEHER} auch im Spiel).}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{5}
+	\cardtitle{Pferdestall}
+	\cardcontent{Diese Karte wirkt kumulativ. Wenn du z.B. den \emph{DRAHTZIEHER} benutzt, um einen \emph{PFERDESTALL} dreimal zu spielen, wird jede Karte, die du in diesem Zug nimmst und die \coin[4] oder mehr kostet, drei \emph{PFERDE} einbringen. Der \emph{PFERDESTALL} gilt für Karten, die du durch Kauf nimmst, und Karten, die du auf eine andere Art und Weise nimmst.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/orange.png}
+	\cardicon{icons/coin.png}
+	\cardprice{5}
+	\cardtitle{Wache}
+	\cardcontent{Wenn du diese Karte spielst, bleibt sie bis zur Aufräumphase deines nächsten Zuges im Spiel. Bis zu deinem nächsten Zug muss jeder Mitspieler, wenn er eine Aktions- oder Geldkarte nimmt, von der er keine gleiche Karte im \emph{Exil} hat, jene Karte verbannen. Hat der Mitspieler mindestens ein Exemplar der genommenen Karte auf seinem \emph{Exil}-Tableau, ist er von der Anweisung der \emph{WACHE} nicht betroffen. Er darf aber natürlich wie üblich freiwillig Exemplare der Karte dieses Namens von seinem \emph{Exil}-Tableau ablegen.
+	\\
+	Genommene Karten werden nur auf das \emph{Exil}-Tableau verbannt, wenn sie nicht durch andere Fähigkeiten, die sich auch auf das Nehmen von Karten beziehen, irgendwohin bewegt wurden, z.B. durch einen \emph{SCHLITTEN}.
+	\\
+	Die \emph{WACHE} verbannt nur Aktions- und Geldkarten, keine anderen Karten wie z.B. die \emph{PROVINZ}. Sie beachtet nur Karten auf dem \emph{Exil}-Tableau und beachtet nicht, wie sie dorthin gekommen sind.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{5}
+	\cardtitle{\footnotesize{Zufluchtsort}}
+	\cardcontent{Eine Karte zu verbannen ist optional.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{6*}
+	\cardtitle{\footnotesize{Schlachtross}}
+	\cardcontent{Das \emph{SCHLACHTROSS} ist eine Karte mit variablen Kosten (wie bereits vom \emph{HAUSIERER} (aus \emph{Blütezeit}) bekannt). Sie kostet während deiner Zuge für alle Belange, bei denen die Kosten von Karten betrachtet werden, \coin[1] weniger pro Karte, die du in deinem Zug genommen hast. Du kannst z.B. den \emph{SCHLITTEN} spielen, um zwei \emph{PFERDE} zu nehmen, und dann die \emph{WERKSTATT} (aus dem \emph{Basisspiel}) benutzen, um ein \emph{SCHLACHTROSS} zu nehmen, weil es -- da du 2 \emph{PFERDE} genommen hast -- \coin[4] kostet. Das \emph{SCHLACHTROSS} beachtet nur Karten, die vom Spieler genommen wurden, der am Zug ist. Eine \emph{HEXE} (aus dem \emph{Basisspiel}) zu spielen, um anderen Spielern Flüche zu geben, senkt z.B. nicht die Kosten des \emph{SCHLACHTROSSES} (siehe \enquote{Kosten mit einem *}).}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{6*}
+	\cardtitle{Wanderin}
+	\cardcontent{\tiny{Die \emph{WANDERIN} ist eine Karte mit variablen Kosten (wie bereits vom \emph{HAUSIERER} (aus \emph{Blütezeit}) bekannt). Normalerweise kostet sie \coin[6] -- sobald aber eine Karte genommen wird, ändern sich ihre Kosten. Karten, die Kosten senken, wie die \emph{BRÜCKE} (aus \emph{Intrige}) gelten nur für die \emph{WANDERIN}, wenn bisher noch keine Karten genommen wurden. Sobald eine Karte genommen wird (egal ob von dir oder einem Mitspieler), nimmt die \emph{WANDERIN} die Kosten der zuletzt genommenen Karte an.
+	
+	\smallskip
+	
+	Das heißt, wenn du eine andere Karte als die \emph{WANDERIN} nimmst, kostet die \emph{WANDERIN} so lange, bis eine andere Karte genommen wird bzw. bis zum Ende dieses Zuges, genauso viel wie die genommene Karte. Nimmst du eine weitere Karte in diesem Zug, nimmt die \emph{WANDERIN} deren Kosten an usw. Nimmt ein anderer Spieler in deinem Zug eine Karte (z.B. einen \emph{FLUCH} durch eine \emph{HEXE} (aus dem \emph{Basisspiel}), die du gespielt hast) nimmt die \emph{WANDERIN} deren Kosten an.
+
+	\smallskip
+
+	Wenn du z.B. eine \emph{WANDERIN} spielst und dich entscheidest, ein \emph{SILBER} zu nehmen, kostet die \emph{WANDERIN} \coin[3], genau wie das \emph{SILBER}. Wenn du eine \emph{HEXE} (aus dem \emph{Basisspiel}) spielst, nimmt jeder andere Spieler einen \emph{FLUCH} und die \emph{WANDERIN} kostet \coin[0], genau wie der \emph{FLUCH}. Wenn du z.B. die \emph{BRÜCKE} (aus \emph{Intrige}) spielst, kostet die \emph{WANDERIN} \coin[5]. Wenn du dann ein \emph{SILBER} kaufst, kostet die \emph{WANDERIN} zu dem Zeitpunkt \coin[2], genau wie \emph{SILBER}.
+
+	\smallskip
+
+	Die Kosten der \emph{WANDERIN} kann \potion (aus \emph{Alchemisten}) oder \hex (aus \emph{Empires}) enthalten. Den \emph{VIEHMARKT} zu kaufen, indem du eine Aktionskarte entsorgst, verändert die Kosten der \emph{WANDERIN} auf \coin[7], die Kosten des \emph{VIEHMARKTS}, nicht auf die Kosten der entsorgten Aktionskarte. Es ist auch nicht möglich, zum Bezahlen der \emph{WANDERIN} eine Aktionskarte zu entsorgen (siehe \enquote{Kosten mit einem *}).}}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardicon{icons/coin.png}
+	\cardprice{7*}
+	\cardtitle{Viehmarkt}
+	\cardcontent{Mit dieser Karte überprüfst du nur die Anzahl der leeren Stapel in dem Moment, wenn du sie spielst. Wie viele + Kaufe du bekommen hast, ändert sich nicht, wenn ein Stapel später im Zug leer wird (oder wieder Karten enthält, wie mit dem \emph{BOTSCHAFTER} aus \emph{Seaside}).
+	\\
+	Bei dieser Karte werden nur Vorratsstapel gezählt, keine Stapel, die nicht zum Vorrat gehören, wie der \emph{PFERDE}-Stapel.
+	
+	\smallskip
+
+	Wenn du diese Karte kaufst, darfst du eine Aktionskarte aus deiner Hand entsorgen, anstatt \coin[7] zu bezahlen. Das kannst du aber nur machen, wenn du eine Aktionskarte zum Entsorgen auf der Hand hast. Du kannst es sogar machen, wenn du nicht \coin[7] hast. Wenn du auf diese Weise den \emph{VIEHMARKT} kaufst, bezahlst du kein \coin, verbrauchst aber trotzdem einen Kauf. Der \emph{VIEHMARKT} kostet -- für alle Belange, in denen die Kosten einer Karte betrachtet werden -- \coin[7] unabhängig davon, wie du bezahlst.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{Ereignisse (1/5)\qquad}
+	\cardcontent{\emph{Verzögerung}: Wenn du die Aktionskarte zur Seite legst, musst du sie zu Beginn deines nächsten Zuges spielen. Wenn du mehrere Dinge zu Beginn deines Zuges machst, darfst du die Reihenfolge wählen. Die Aktionskarte zu Beginn deines nächsten Zuges zu spielen, verbraucht keine Aktion.
+
+	\medskip
+
+	\emph{Verzweiflung}: Wenn der \emph{FLUCH}-Stapel leer ist nimmst du keinen \emph{FLUCH} und erhältst nicht +1 Kauf und +\coin[2].
+	
+	\medskip
+
+	\emph{Plackerei}: Eine Aktionskarte auf diese Weise zu spielen, verbraucht keine Aktion.
+	
+	\medskip
+
+	\emph{Verfolgung}: Du darfst eine Karte nennen, die ihr nicht im Spiel verwendet. Wenn du das tust, werden alle vier Karten abgelegt, also offen auf den eigenen Ablagestapel gelegt.
+	
+	\medskip
+
+	\emph{Wagnis}: Das Spielen der Karte ist optional und verbraucht keine Aktion. Wenn du die Karte nicht spielst, unabhängig davon, ob sie eine Aktions- bzw. Geldkarte ist oder nicht, lege sie ab.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{Ereignisse (2/5)\qquad}
+	\cardcontent{\emph{Fußmarsch}: Du darfst deinen Ablagestapel nicht durchschauen, bevor du dich entscheidest, den \emph{FUSSMARSCH} zu erwerben, außer eine andere Anweisung erlaubt dir dies. Sobald du den \emph{FUSSMARSCH} erwirbst, schaust du aber durch deinen Ablagestapel und hast dann die Möglichkeit, eine Aktionskarte aus dem Stapel zu spielen. Dies verbraucht keine Aktion.
+
+	\medskip
+
+	\emph{Transport}: Es ist nur wichtig, ob die Karte selbst eine Aktionskarte ist, nicht, ob der gesamte Stapel aus Aktionskarten besteht (z.B. bei gemischten Stapeln). Durch den \emph{TRANSPORT} können auch Aktionskarten aus deinem \emph{Exil} auf deinen Nachziehstapel gelegt werden, die von anderen Karten in dein \emph{Exil} gelegt wurden.
+	
+	\medskip
+
+	\emph{Verbesserung}: Wenn du eine Karte entsorgst, musst du eine Karte nehmen, die bis zu \coin[2] mehr kostet als sie. Die genommene Karte darf auch gleichviel oder weniger kosten als die entsorgte Karte.
+	
+	\medskip
+
+	\emph{Gutes Geschäft}: Die Mitspieler nehmen die \emph{PFERDE} in Zugreihenfolge (beginnend bei dem Spieler links von dir). Sie können nicht ablehnen, ein \emph{PFERD} zu nehmen.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{Ereignisse (3/5)\qquad}
+	\cardcontent{\emph{Investition}: Es ist nur wichtig, ob die Karte, die du verbannst, eine Aktionskarte ist, nicht, ob der gesamte Stapel aus Aktionskarten besteht (z.B. bei gemischten Stapeln). Während die Karte verbannt ist, ziehst du für jedes Mal 2 Karten, wenn ein Mitspieler eine gleiche Karte nimmt oder die \emph{INVESTITION} benutzt, um eine gleiche Karte zu verbannen. Dies ist nicht optional und wirkt kumulativ; wenn du mit der \emph{INVESTITION} zweimal die gleiche Karte verbannst, erhältst du 4 Karten für jedes Mal, wenn ein anderer Spieler eine gleiche Karte nimmt oder eine gleiche Karte mit der \emph{INVESTITION} verbannt.
+
+	\smallskip
+
+	Wenn es im Spiel eine andere Art und Weise gibt, Karten zu verbannen, bewahre die durch \emph{INVESTITION} verbannten Karten getrennt von den übrigen Karten auf. Du kannst sie z.B. halb unter dein \emph{Exil}-Tableau legen.
+	\\
+	Diese anderen verbannten Karten wurden nicht durch \emph{INVESTITION} verbannt und führen nicht dazu, dass du Karten ziehen darfst. Karten, die mit \emph{INVESTITION} verbannt wurden, können normal vom Tableau abgelegt werden, indem du eine weitere Karte gleichen Namens nimmst. Danach ziehst du keine Karten mehr, wenn ein anderer Spieler gleiche Karten nimmt oder sie mit \emph{INVESTITION} verbannt. Du kannst auch mehrere Karten mit unterschiedlichem Namen gleichzeitig auf diese Weise im \emph{Exil} haben, wenn du sie vorher nach und nach mit \emph{INVESTITION} verbannt hast.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{Ereignisse (4/5)\qquad}
+	\cardcontent{\emph{Nutze den Tag}: Der zusätzliche Zug ist wie ein normaler Zug, wird aber nicht gezählt, wenn es am Spielende zu einem Gleichstand kommt.
+
+	\medskip
+
+	\emph{Verbannung}: Du kannst z.B. drei \emph{ANWESEN} aus deiner Hand verbannen. Alle Karten, die du mit diesem Ereignis verbannst, müssen exakt den gleichen Namen haben.
+	
+	\medskip
+
+	\emph{Forderung}: Du legst zuerst das \emph{PFERD} auf deinen Nachziehstapel, dann die Karte, die bis zu \coin[4] kostet, darauf.
+	
+	\medskip
+
+	\emph{Kommerz}: Du zahlst zunächst, wie viele Karten mit unterschiedlichen Namen du in diesem Zug genommen hast, dann nimmst du dir entsprechend viele \emph{GOLD}. Wenn du z.B. zwei \emph{PROVINZEN}, ein \emph{SILBER} und ein \emph{PFERD} genommen hast, nimmst du drei \emph{GOLD}. Dies betrifft nur die Karten, die du in diesem Zug bereits genommen hast, nicht die Karten, die du im weiteren Verlauf deines Zuges noch nimmst.
+	
+	\medskip
+	
+	\emph{Stampede}: Es spielt keine Rolle, wie viele Karten du in diesem Zug gespielt hast, nur wie viele du zu dem Zeitpunkt im Spiel hast, wenn du die \emph{STAMPEDE} erwirbst. Wenn weniger als 5 \emph{PFERDE} im \emph{PFERDE}-Stapel liegen, erhältst du so viele wie möglich.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{Ereignisse (5/5)\qquad}
+	\cardcontent{\tiny{\emph{Reiche Ernte}: Dies bedeutet, dass du zu Beginn deines nächsten Zuges ein \emph{GOLD} im Spiel hast und dadurch +\coin[3]. Du legst das \emph{GOLD} in dem Zug normal ab. Wenn mehrere Dinge zu Beginn deines Zuges passieren, darfst du die Reihenfolge wählen. Dies führt nicht dazu, dass du deine Aktionsphase überspringst.
+
+	\medskip
+
+	\emph{Enklave}: Das \emph{HERZOGTUM} wird direkt vom \emph{HERZOGTUM}-Stapel auf dein \emph{Exil}-Tableau gelegt.
+	
+	\medskip
+
+	\emph{Besiedlung}: Du nimmst die oberste Karte von jedem Aktionskartenstapel im Vorrat. Du erhältst keine Karten, die nicht zum Vorrat gehören, wie das \emph{PFERD}, oder Nicht-Aktionskarten wie das \emph{DEPOT}. Liegen in einem Aktionskartenstapel verschiedene Karten, wie die \emph{RITTER} (aus \emph{Dark Ages}), erhältst du nur die oberste. Ist ein Aktionskartenstapel leer, erhältst du keine Karten von ihm. Du wählst die Reihenfolge aus, in der du die Karten erhältst, was manchmal eine Rolle spielt. Normalerweise kannst du von jedem Stapel eine Karte wegnehmen und dann entscheiden, in welcher Reihenfolge du sie tatsächlich nimmst. Bei Stapeln mit verschiedenen Karten ist der Stapel nur dann ein Aktionskartenstapel, wenn die Platzhalter-Karte eine Aktionskarte ist. So sind die \emph{SCHLÖSSER} (aus \emph{Empires}) kein Aktionskartenstapel. Wenn du \emph{KAVALLERIE} oder \emph{VILLA} (aus \emph{Empires}) mit der \emph{BESIEDLUNG} nimmst, kehrst du sofort in deine Aktionsphase zurück, beendest aber trotzdem zunächst das Nehmen der Karten, die dir durch die \emph{BESIEDLUNG} zustehen, bevor du weitere Dinge tust.
+	
+	\medskip
+
+	\emph{Bündnis}: Du nimmst sämtliche genannte Karten, soweit sie im Vorrat liegen. Du kannst dich nicht entscheiden, keine Karte zu nehmen. Du nimmst die Karten in der genannten Reihenfolge.}}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{Wege (1/4)\qquad}
+	\cardcontent{\emph{Weg des Affen}: Du erhältst +1 Kauf und +\coin[1].
+
+	\medskip
+		
+	\emph{Weg des Chamäleons}: Wenn du z.B. den \emph{HIRTENHUND} spielst und den \emph{Weg des Chamäleons} benutzt, erhältst du +\coin[2] anstelle von +2 Karten. Wenn du eine Dauerkarte mit dem \emph{Weg des Chamäleons} spielst, sind nur die +\coin und +X Karten, die du in dem Zug erhältst, betroffen. Wenn du z.B. ein \emph{HANDELSSCHIFF} (aus \emph{Seaside}) spielst und den \emph{Weg des Chamäleons} benutzt, erhältst du +2 Karten in diesem Zug, aber die normalen +\coin[2] im nächsten Zug. Diese Karte macht \enquote{+ Karten} zu \enquote{+\coin} und umgekehrt, verändert aber keine anderen Arten, Karten zu ziehen wie z.B. \enquote{Ziehe solange Karten nach, bis du 6 Karten auf der Hand hast.} Wenn die Aktionskarte, für die du den \emph{Weg des Chamäleons} nutzt, das Spielen einer anderen Karte nach sich zieht, macht jene Karte, was sie normalerweise macht (außer du nutzt den \emph{Weg des Chamäleons} auch für sie).
+	
+	\medskip
+	
+	\emph{Weg des Eichhörnchens}: Normalerweise ziehst du zwei Karten, nachdem du in deiner Aufräumphase Karten auf die Hand gezogen hast. Wenn du den \emph{Weg des Eichhörnchens} benutzt, während du nicht am Zug bist (wie z.B. durch die \emph{SCHWARZE KATZE}), ziehst du trotzdem zwei Karten am Ende des Zuges.
+
+	\medskip
+
+	\emph{Weg der Eule}: Wenn du schon 6 oder mehr Karten auf der Hand hast, ziehst du keine Karten.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{Wege (2/4)\qquad}
+	\cardcontent{\emph{Weg des Frosches}: Du erhältst +1 Aktion. Wenn du diese Karte in diesem Zug aus dem Spiel ablegst, lege sie auf deinen Nachziehstapel.
+	
+	\medskip
+	
+	\emph{Weg des Kamels}: Verbanne ein Gold aus dem Vorrat.
+	
+	\medskip
+
+	\emph{Weg des Maultiers}: Du erhälts +1 Aktion und +\coin[1].
+
+	\medskip
+	
+	\emph{Weg des Maulwurfs}: Du ziehst 3 Karten, auch wenn du keine Karten mehr zum Ablegen hattest.
+	
+	\medskip
+	
+	\emph{Weg der Maus}: Legt zu Spielbeginn eine nicht verwendete Aktions-Königreichkarte, die \coin[2] oder \coin[3] kostet, zur Seite. Trefft die entsprechenden Vorbereitungen für diese Karte. Wenn du den Weg der Maus nutzt, spielst du die zur Seite gelegte Karte und lässt die Karte zur Seite gelegt. Wenn ihr z.B. den \emph{SCHLITTEN} zur Seite legt, kann jede Aktionskarte dazu benutzt werden, um 2 \emph{PFERDE} zu nehmen. Die zur Seite gelegte Karte befindet sich nicht im Spiel, auch nicht wenn sie gerade genutzt wird. Sie kann weder entsorgt noch durch Anweisungen auf anderen Karten anderweitig zur Seite gelegt werden. Wenn die Karte z.B. das \emph{EMBARGO} ist (aus \emph{Seaside}), kann sie nicht entsorgt werden. Texte unterhalb der Trennlinie (außer die, die die Spielvorbereitung betreffen), haben keine Wirkung.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{Wege (3/4)\qquad}
+	\cardcontent{\emph{Weg des Ochsen}: Du erhältst +2 Aktionen.
+	
+	\medskip
+	
+	\emph{Weg des Otters}: Du erhältst +2 Karten.
+	
+	\medskip
+	
+	\emph{Weg des Pferdes}: Die Aktionskarte wird auf ihren Stapel zurückgelegt, auch wenn er nicht zum Vorrat gehört. Eine Aktionskarte ohne Stapel, wie die \emph{TOTENSTADT} aus \emph{Dark Ages}, wird nicht auf ihren Stapel zurückgelegt.
+
+	\medskip
+
+	\emph{Weg der Ratte}: Diese Karte bringt dir nur Karten aus dem Vorrat. Mit \enquote{diese Karte} ist -- wie bei allen \emph{Wege}-Karten -- die Aktionskarte gemeint, für die du die \emph{Wege}-Karte nutzt.
+
+	\medskip
+
+	\emph{Weg der Robbe}: Dies betrifft alle genommenen Karten, sowohl die gekauften als auch die auf irgendeine andere Weise genommenen. Die Karte wird zuerst dahin genommen, wohin sie normalerweise genommen würde, dann kannst du sie auf deinen Nachziehstapel legen. Bewegt sie sich zwischendurch woandershin (z.B. durch die Entsorgung durch den \emph{WACHTURM} aus \emph{Blütezeit}), kannst du sie nicht bewegen.
+	
+	\medskip
+	
+	\emph{Weg des Schafes}: Du erhälts +\coin[2].}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{Wege (4/4)\qquad}
+	\cardcontent{\emph{Weg der Schildkröte}: Wenn du die Aktionskarte zu Beginn deines nächsten Zuges spielst, kannst du den \emph{Weg der Schildkröte} erneut benutzen, um das Spielen der Karte um einen weiteren Zug zu verschieben. Dies kannst du immer weiter tun. Die Karte im nächsten Zug zu spielen verbraucht dort keine Aktion. Wenn du eine Karte wie den \emph{THRONSAAL} (aus dem \emph{Basisspiel}) benutzt, um eine Karte zweimal zu spielen, und dann den \emph{Weg der Schildkröte} benutzt, wird dadurch nicht der \emph{THRONSAAL} zur Seite gelegt oder im Spiel behalten wie beim Spielen von Dauerkarten.
+
+	\smallskip
+
+	\emph{Weg des Schmetterlings}: Du nimmst nur dann eine Karte, wenn du es schaffst, die Aktionskarte auf ihren Stapel zurückzulegen. Eine Karte, die nicht zum Vorrat gehört (wie das \emph{PFERD}), kann zu ihrem Stapel zurückkehren. Eine Aktionskarte ohne Stapel, wie die \emph{TOTENSTADT} (aus \emph{Dark Ages}), kannst du nicht auf ihren Stapel zurücklegen. Die Karte, die du nimmst, kommt vom Vorrat und kann jeden Typ haben. Gibt es im Vorrat keine Karte, die genau \coin[1] mehr kostet als die zurückgelegte Karte, nimmst du keine.
+
+	\smallskip
+
+	\emph{Weg des Schweins}: Du erhälts +1 Karte und +1 Aktion.
+
+	\smallskip
+
+	\emph{Weg des Wurms}: Verbanne ein Anwesen aus dem Vorrat.
+
+	\smallskip
+
+	\emph{Weg der Ziege}: Entsorge eine deiner Handkarte.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{Pferd\qquad}
+	\cardicon{icons/coin.png}
+	\cardprice{3*}
+	\cardcontent{Wenn ihr mindestens eine Karte verwendet, die sich auf das \emph{Pferd} bezieht, legt den \emph{Pferde}-Stapel neben dem Vorrat bereit: 
+	\\
+	\emph{Königreichkarten: HERBERGE - KAVALLERIE - KOPPEL - NACHSCHUB - PFERDESTALL - SCHLITTEN - SCHROTT - STALLBURSCHE
+	\\
+	Ereignisse: AUSRITT - FORDERUNG - GUTES GESCHÄFT - STAMPEDE.}
+	\\
+	\emph{Pferde} gehören nicht zum Vorrat.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\scriptsize{Spielvorbereitung (1/3)}\qquad}
+	\cardcontent{\underline{\emph{Ereignisse}}
+	\\
+	Zusätzlich zu den Königreichkarten gibt es \emph{Ereignisse}. Sie haben exakt die gleiche Funktion wie in \emph{Abenteuer} (und \emph{Empires}) und können wahrend des Spiels erworben werden (siehe NEUE REGELN).
+
+	\smallskip
+
+	Wir empfehlen, pro Spiel maximal insgesamt 2 \emph{Projekte} (aus \emph{Renaissance}), \emph{Landmarken} (aus \emph{Empires}) oder \emph{Ereignisse} (aus \emph{Abenteuer}, \emph{Empires} und/oder \emph{Menagerie}) zu verwenden.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\scriptsize{Spielvorbereitung (2/3)}\qquad}
+	\cardcontent{\tiny{\underline{\emph{Wege}}
+	\\
+	Zusätzlich zu den Königreichkarten und den \emph{Ereignissen} gibt es \emph{Wege}, deren Anweisungen während des Spiels den gespielten Aktionskarten zusätzliche Möglichkeiten geben (siehe NEUE REGELN).
+	
+	\smallskip
+
+	Wir empfehlen, pro Spiel maximal 1 \emph{Weg} zu verwenden.
+	
+	\smallskip
+
+	Zieht \emph{Ereignisse} und \emph{Wege} zufällig aus einem Stapel (dieser kann auch die \emph{Landmarken} (aus \emph{Empires}), \emph{Ereignisse} (aus \emph{Abenteuer} oder \emph{Empires}) und/oder \emph{Projekte} (aus \emph{Renaissance}) enthalten) oder mischt sie (trotz ihrer unterschiedlichen Rückseite) in die Platzhalterkarten ein. Deckt ihr ein \emph{Ereignis} oder einen \emph{Weg} auf, legt das \emph{Ereignis} bzw. den \emph{Weg} neben dem Vorrat bereit. \emph{Ereignisse} und \emph{Wege} gehören nicht zum Vorrat. Deckt so lange Karten auf, bis ihr 10 Königreichkarten und (empfohlen) maximal 2 \emph{Ereignisse}, \emph{Landmarken}, \emph{Projekte} oder \emph{Wege} (wir empfehlen maximal 1 \emph{Weg} pro Spiel) aufgedeckt habt. Legt die überzähligen \emph{Ereignisse}, \emph{Wege}, \emph{Landmarken} und \emph{Projekte} in die Schachtel zurück -- sie kommen in diesem Spiel nicht zum Einsatz.
+	\\
+	\emph{Ereignisse} und \emph{Wege} können nicht als Bannstapel für die \emph{JUNGE HEXE} (aus \emph{Reiche Ernte}) genutzt werden.
+	\\
+	Jedes \emph{Ereignis} und jeder \emph{Weg} ist nur 1x Spiel enthalten.
+	\\
+	Wenn ihr die Karte \emph{Weg der Maus} verwendet, legt eine nicht verwendete Aktionskarte mit den Kosten \coin[2] oder \coin[3] bereit und trefft die fur diese Karte notwendigen Vorbereitungen.}}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\scriptsize{Spielvorbereitung (3/3)}\qquad}
+	\cardcontent{\underline{\emph{Exil-Tableaus und Pferde}}
+	\\
+	Wenn ihr mindestens eine Karte bzw. einen \emph{Weg} oder ein \emph{Ereignis} verwendet, die sich auf das \emph{Exil} bezieht bzw. darauf, dass eine Karte verbannt werden soll, erhält jeder Spieler ein \emph{Exil}-Tableau: 
+	\\ 
+	\emph{Königreichkarten: DEPOT - HEXENZIRKEL - KAMELZUG - KARDINAL - KOPFGELDJÄGERIN - VERTREIBUNG - WACHE - ZUFLUCHTSORT 
+	\\ 
+	Ereignisse: ENKLAVE - INVESTITION - TRANSPORT - VERBANNUNG 
+	\\ 
+	Wege: WEG DES KAMELS - WEG DES WURMS.}
+	
+	\medskip
+
+	Wenn ihr mindestens eine Karte verwendet, die sich auf das \emph{Pferd} bezieht, legt den \emph{Pferde}-Stapel neben dem Vorrat bereit: 
+	\\
+	\emph{Königreichkarten: HERBERGE - KAVALLERIE - KOPPEL - NACHSCHUB - PFERDESTALL - SCHLITTEN - SCHROTT - STALLBURSCHE
+	\\
+	Ereignisse: AUSRITT - FORDERUNG - GUTES GESCHÄFT - STAMPEDE.}
+	\\
+	\emph{Pferde} gehören nicht zum Vorrat.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\footnotesize{Neue Regeln (1/10)}\qquad}
+	\cardcontent{\tiny{\emph{Es gelten die Basisspielregeln mit folgenden Änderungen:}
+	
+	\smallskip
+
+	\emph{Exil-Tableaus / Karten verbannen}
+	\\
+	In Menagerie gibt es \emph{Exil}-Tableaus, auf die du Karten verbannen und von denen du sie wieder zurückholen kannst.
+	\\
+	Es gibt Anweisungen auf Aktionskarten, \emph{Ereignissen} und \emph{Wegen}, mit denen du (oder die Mitspieler, wie beim \emph{HEXENZIRKEL}) Karten verbannst. Das heißt, du legst sie auf dein eigenes \emph{Exil}-Tableau (bzw. beim \emph{HEXENZIRKEL} die Mitspieler auf ihr eigenes \emph{Exil}-Tableau). \enquote{Karten im \emph{Exil}} sind Karten aut dem eigenen \emph{Exil}-Tableau. Eine Karte aus dem Vorrat zu verbannen bedeutet nicht, dass du sie nimmst, und löst keine \enquote{wenn du ... nimmst}-Effekte aus.
+
+	\smallskip
+
+	Wenn du eine Karte nimmst, darfst du alle anderen Karten von deinem \emph{Exil}-Tableau ablegen, die den gleichen Namen haben wie die genommene Karte. Wenn du z.B. zwei \emph{SILBER} in deinem \emph{Exil} hast und ein \emph{SILBER} nimmst, darfst du die beiden \emph{SILBER} von deinem \emph{Exil}-Tableau auf deinen Ablagestapel ablegen. Du darfst sie auch im \emph{Exil} liegen lassen, aber du darfst nicht eins davon ablegen. Eine Karte vom \emph{Exil}-Tableau abzulegen bedeutet nicht, dass du sie nimmst, sondern ist ein \enquote{Ablegen einer Karte}. Wenn es zu einem anderen Zeitpunkt als in der Aufräumphase stattfindet, kann es den \emph{TUNNEL} (aus \emph{Hinterland}) oder den \emph{DORFANGER} auslösen.
+
+	\smallskip
+
+	Karten auf dem eigenen \emph{Exil}-Tableau liegen offen und sind für Mitspieler einsehbar, gehören aber dir; zähle sie bei Spielende, bzw. wenn die Anzahl deiner Karten relevant ist, zu deinem Gesamtergebnis hinzu.}}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\footnotesize{Neue Regeln (2/10)}\qquad}
+	\cardcontent{\tiny{\emph{Wege}
+	\\
+	In Menagerie gibt es \emph{Wege}. Sie sind keine Königreichkarten und können nicht gekauft oder wie \emph{Ereignisse} erworben werden. Vor Spielbeginn entscheiden die Spieler, mit wie vielen \emph{Wegen} gespielt wird. Wir empfehlen, pro Spiel maximal 1 \emph{Weg} zu verwenden. Die \emph{Wege} werden neben dem Vorrat bereitgelegt, gehören aber nicht zum Vorrat.
+	\\
+	Jeder \emph{Weg} gibt Aktionskarten eine alternative Möglichkeit: Entweder spielst du die Aktionskarte gemäß ihrer eigenen Anweisung oder du führst stattdessen beim Spielen der Karte die Anweisungen einer ausliegenden \emph{Wege}-Karte aus.
+
+	\smallskip
+
+	Um den Überblick zu behalten, ist es ratsam, die Aktionskarte um 90 Grad zu drehen, die mit einem \emph{Weg} benutzt wurde. So kannst du dir merken, dass du den \emph{Weg} benutzt hast anstatt der Anweisung auf der Aktionskarte.
+
+	\smallskip
+
+	Eine Aktionskarte mit den Anweisungen einer \emph{Wege}-Karte zu spielen bedeutet, dass du nichts tust, wozu dich die Aktionskarte beim Spielen anweist. Wenn du z.B. ein \emph{PFERD} spielst und dich entscheidest, stattdessen die Anweisung vom \emph{Weg des Schafes} (mit der Anweisung +\coin[2]) zu verwenden, erhältst du +\coin[2] und nicht +2 Karten und +1 Aktion (die Anweisung des \emph{PFERDES}) und legst das \emph{PFERD} nicht auf seinen Stapel zurück.
+	
+	\smallskip
+
+	Anweisungen unterhalb der Trennlinie sind nicht von der \emph{Wege}-Karte betroffen; sie finden weiterhin wie dort erwähnt statt. Wenn du z.B. eine \emph{FERNSTRASSE} (aus \emph{Hinterland}) spielst und den \emph{Weg des Schafes} benutzt, erhältst du +\coin[2] und während die \emph{FERNSTRASSE} dann im Spiel ist, kosten andere Karten wegen ihrer Fähigkeit weniger.}}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\footnotesize{Neue Regeln (3/10)}\qquad}
+	\cardcontent{\tiny{\textit{Zusätzliche Hinweise}
+	\begin{itemize}
+		\item Auf einigen \emph{Wegen} steht \enquote{diese Karte}. Damit ist die Aktionskarte gemeint, die du mit der Anweisung des \emph{Weges} spielst, nicht die \emph{Wege}-Karte selbst. Der \emph{Weg der Schildkröte} sagt z.B. \enquote{Lege diese Karte zur Seite.}: Wenn du einen \emph{MARKT} spielst, aber den \emph{Weg der Schildkröte} benutzt, legst du den \emph{MARKT} zur Seite.
+		\item Wenn eine \emph{ZAUBERIN} (aus \emph{Empires}) dich betrifft, darfst du die Anweisungen der ersten gespielten Aktionskarte nicht ausführen. Du darfst aber statt der Anweisungen auf der Aktionskarte die Anweisungen auf einer \emph{Wege}-Karte ausführen. Dann bekommst du aber nicht +1 Karte und +1 Aktion.
+		\item Wenn eine Aktionskarte zu einem ungewöhnlichen Zeitpunkt gespielt werden kann, wie z.B. der \emph{HIRTENHUND}, kann stattdessen ein \emph{Weg} benutzt werden.
+		\item Wenn du eine Aktionskarte mehrmals spielst, z.B. mit dem \emph{DRAHTZIEHER}, darfst du bei jedem Spielen wählen, ob du einen \emph{Weg} benutzen möchtest oder nicht.
+		\item Ist deine gespielte Karte eine \emph{Dauerkarte}, bleibt sie nur im Spiel, wenn du sie mindestens einmal als sie selbst gespielt hast, also nicht stattdessen einen \emph{Weg} benutzt hast. Bleibt sie im Spiel, musst du dir für deinen nächsten Zug merken, wie oft du sie als sie selbst gespielt hast.
+		\item Löst das Spielen einer Aktionskarte \enquote{Zuerst}-Handlungen aus (z.B. weil es eine Angriffskarte ist, auf die die Mitspieler mit \emph{BURGGRABEN} reagieren können, oder weil die zuvor gespielte Karte ein \emph{BRENNOFEN} war), werden diese abgehandelt, bevor du die Entscheidung triffst, ob du statt der Aktionskarte einen \emph{Weg} benutzt oder nicht.
+		\item Die Marker aus \emph{Abenteuer} gelten auch, wenn du statt der Anweisungen der Aktionskarte eines entsprechend markierten Vorratsstapels eine \emph{Wege}-Karte benutzt.
+	\end{itemize}}}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\footnotesize{Neue Regeln (4/10)}\qquad}
+	\cardcontent{\emph{Pferde}
+	\\
+	In \emph{Menagerie} gibt es einen Stapel mit \emph{Pferde}-Karten, und es gibt Aktionskarten sowie \emph{Ereignisse}, mit denen du \emph{Pferde} erhalten kannst. Der \emph{Pferde}-Stapel gehört nicht zum Vorrat. Du darfst nur dann eine \emph{Pferde}-Karte von diesem Stapel nehmen, wenn eine Karte oder ein Ereignis dich anweist, dass du ein \emph{Pferd} nehmen sollst, aber nicht durch Karten wie die \emph{FALKNERIN} oder die \emph{VERTREIBUNG}.
+
+	\smallskip
+
+	\begin{itemize}
+		\item \enquote{Nimm ein Pferd} bedeutet, dass du dir ein \emph{Pferd} vom \emph{Pferde}-Stapel nimmst. Wenn du angewiesen wirst, ein \emph{Pferd} zu nehmen, und es ist kein \emph{Pferd} mehr auf dem \emph{Pferde} Stapel, nimmst du kein \emph{Pferd}.
+		\item Wenn du ein \emph{Pferd} spielst, erhältst du +2 Karten, +1 Aktion und legst das \emph{Pferd} zurück auf den \emph{Pferde}-Stapel. Wenn du eine Karte wie den \emph{DRAHTZIEHER} dazu verwendest, um ein \emph{Pferd} mehrmals zu spielen, erhältst du +2 Karten und +1 Aktion für jedes Mal, auch wenn du das \emph{Pferd} nur einmal zurücklegen kannst.
+	\end{itemize}}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\footnotesize{Neue Regeln (5/10)}\qquad}
+	\cardcontent{\tiny{\emph{Ereignisse}
+	\\ 
+	In \emph{Menagerie} gibt es \emph{Ereignisse}, die erstmals in \emph{Abenteuer} erschienen sind. In deiner Kaufphase kannst du ein \emph{Ereignis} statt einer anderen Karte erwerben (dies verbraucht 1 Kauf). Du bezahlst die Kosten, die auf dem \emph{Ereignis} stehen, und dessen Effekt tritt sofort ein.
+
+	\smallskip
+
+	\emph{Ereignisse} sind keine Königreichkarten. Sie liegen lediglich aus und liefern einen Effekt, den du kaufen kannst. Es gibt keine Möglichkeit, dass du ein \emph{Ereignis} nehmen kannst oder dass ein \emph{Ereignis} in deinem Kartensatz ist. Der Erwerb eines \emph{Ereignisses} verbraucht 1 Kauf. Normalerweise kannst du entweder eine Karte kaufen oder ein \emph{Ereignis} erwerben. Wenn du 2 Käufe hast, wie z.B. nach dem Spielen des \emph{ZUFLUCHTSORTS}, kannst du bis zu zwei Karten kaufen oder zwei \emph{Ereignisse} erwerben oder eine Karte und ein \emph{Ereignis}, in beliebiger Reihenfolge. 
+	\\
+	\emph{Ereignisse} können in einem Zug mehrmals erworben werden, wenn du genügend Käufe und \coin[ ] dafür verfügbar hast, es sei denn, das \emph{Ereignis} sagt etwas anderes wie \emph{VERZWEIFLUNG}. 
+	\\
+	Nachdem du ein \emph{Ereignis} erworben hast, darfst du in dieser Kaufphase keine weiteren Geldkarten spielen, es sei denn, ein \emph{Ereignis} oder eine Karte erlaubt dir dies explizit. Der Erwerb eines \emph{Ereignisses} ist kein Kauf einer Karte und löst deshalb nicht
+	Karten wie den \emph{FEILSCHER} (aus \emph{Hinterland}) aus.
+	\\
+	Die Kosten von \emph{Ereignissen} werden nicht durch Karten wie die \emph{BRÜCKE} (aus \emph{Intrige}) beeinflusst.}}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\footnotesize{Neue Regeln (6/10)}\qquad}
+	\cardcontent{\emph{Reaktionskarten}
+	\\
+	In \emph{Menagerie} gibt es fünf \emph{Reaktionskarten}. Normalerweise werden \emph{AKTIONS-REAKTIONS-Karten} wie jede andere Aktionskarte gespielt, um die Anweisungen über der Trennlinie zu nutzen. Die \emph{REAKTION} der Karte wird zu einem anderen Zeitpunkt, der unter der Trennlinie angegeben ist, ausgelöst und führt NICHT dazu, dass die Karte gespielt, sondern in der Regel nur aufgedeckt wird. Vier der \emph{Reaktionskarten} aus \emph{Menagerie} können - zusätzlich zum \enquote{normalen} Spielen in der Aktionsphase eines Spielers - zu einem ungewöhnlichen Zeitpunkt als \emph{REAKTION} gespielt werden: \emph{SCHWARZE KATZE},   \emph{FALKNERIN}, \emph{HIRTENHUND} und \emph{DORFANGER}. 
+
+	\smallskip
+
+	Das Spielen einer dieser \emph{Reaktionskarten} -- ausgelöst durch die Anweisung unter der Trennlinie -- bringt sie ins Spiel, als wenn sie normal gespielt wurde, verbraucht aber keine Aktion. Wenn du eine Karte in dem Zug eines Mitspielers spielst, legst du sie in der Aufräumphase jenes Zuges ab, außer es ist eine Dauerkarte, bei der noch weitere Anweisungen ausstehen.
+	
+	\smallskip
+
+	Wenn du eine \emph{Reaktionskarte} -- ausgelöst durch die Anweisung unter der Trennlinie -- spielst, darfst du statt der Anweisung der \emph{Reaktionskarte} einen \emph{Weg} nutzen.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\footnotesize{Neue Regeln (7/10)}\qquad}
+	\cardcontent{\emph{Reaktionskarten -- Forsetzung}
+	\\
+	Wenn das Spielen einer dieser \emph{Reaktionskarten} -- ausgelöst durch die Anweisung unter der Trennlinie -- dazu führt, dass du eine weitere \emph{Reaktionskarte} ziehst, die sofort verwendet werden kann, darfst du sie benutzen usw. Hast du z.B. eine \emph{SCHWARZE KATZE} auf der Hand und ein Mitspieler nimmt eine \emph{PROVINZ}, darfst du sie spielen. Ziehst du dabei eine weitere \emph{SCHWARZE KATZE}, darfst du sie ebenfalls spielen usw.
+
+	\smallskip
+
+	Wenn mehrere Spieler, die nicht am Zug sind, etwas zur gleichen Zeit machen möchten -- wie z.B. \emph{Reaktionskarten} spielen --, beginnt der (ausgehend vom Spieler, der am Zug ist) in Zugreihenfolge nachfolgende Spieler und führt eine Aktivität aus (z.B. spielt er eine \emph{Reaktionskarte}), dann folgen reihum die weiteren Spieler. Dies kann etwas daran ändern, was die einzelnen Spieler machen möchten. Nachdem ein Spieler ggf. eine entsprechende Aktivität 
+	ausgeführt hat, startet ihr erneut ausgehend vom Spieler, der am Zug ist, und ermittelt, wer etwas machen möchte (z.B. eine weitere \emph{Reaktionskarte} spielen) usw. 
+	
+	\smallskip
+	
+	Manchmal ergibt sich eine Situation, in der mit einer \emph{Reaktionskartereagiert} werden darf, und diese \emph{Reaktionskarte} ergibt eine weitere Situation, in der mit einer \emph{Reaktionskarte} reagiert werden kann. Löst alle \emph{Reaktionskarten} für die neue
+	Situation auf und geht dann zurück und löst die erste \emph{Reaktionskarte} auf.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\footnotesize{Neue Regeln (8/10)}\qquad}
+	\cardcontent{\emph{Kosten mit einem *}
+	\\
+	Bei einigen Karten sind die Kosten mit einem * markiert, der die Spieler an etwas erinnern soll.
+
+	\smallskip
+
+	Das \emph{PFERD} hat z.B. einen * bei seinen Kosten, kostet aber \coin[3] und kann daher mit einen \emph{UMBAU} (aus dem \emph{Basisspiel}) entsorgt werden, um dafür ein um \coin[2] teureres \emph{HERZOGTUM} zu nehmen usw. Für \emph{Anweisungen}, die verschiedene Kosten vergleichen, hat das \emph{PFERD} die gleichen Kosten wie andere Karten, die \coin[3] kosten. Beim \emph{PFERD} soll der * lediglich daran erinnern, dass du \emph{PFERDE} nicht kaufen kannst, weil sie nicht zum Vorrat gehören.
+	
+	\smallskip
+
+	Beim \emph{VIEHMARKT} erinnert der * daran, dass du die Karte auf eine andere Art und Weise kaufen kannst.
+
+	\smallskip
+
+	\emph{SCHLACHTROSS}, \emph{FISCHER} und \emph{WANDERIN} haben einen *, weil ihre Kosten sich während eines Zuges verändern können. Dies kann manchmal zu verschachtelten Situationen führen.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\footnotesize{Neue Regeln (9/10)}\qquad}
+	\cardcontent{\emph{Kosten mit einem * -- Fortsetzung}
+	\\
+	Wenn sich die Kosten dieser Karten ändern, ändern sie sich auf allen Karten dieses Namens, überall und für alle Zwecke. Wenn du z.B. eine der Karten durch \emph{UMBAU} entsorgst, gelten die geänderten Kosten, nicht die auf der Karte aufgedruckten. Hat ein Mitspieler eine Anweisung, für die es wichtig ist, welche Kosten seine Karte während deines Zuges hat (wie z.B. die Promo-Karte \emph{GOUVERNEUR}), nutzt er die gleichen, geänderten Kosten wie du. Kosten können nicht unter \coin[0] sinken.
+	
+	\smallskip
+	
+	\emph{SCHLACHTROSS} und \emph{FISCHER} werden auch von anderen Dingen beeinflusst, die ihre Kosten ändern, wie der \emph{BRÜCKE} (aus \emph{Intrige}).
+	
+	\smallskip
+	
+	Kosten können sich während der Ausführung von Anweisungen ändern. Wichtig ist, den Anweisungen auf den Karten in ihrer Reihenfolge zu folgen.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\footnotesize{Neue Regeln (10/10)}\qquad}
+	\cardcontent{\emph{Dauerkarten}
+	\\
+	In \emph{Menagerie} gibt es vier \emph{Dauerkarten} (wie schon in \emph{Seaside}, \emph{Abenteuer} und \emph{Renaissance}). Die orangefarbenen \emph{Dauerkarten} beinhalten Anweisungen, die in spüteren Zügen umgesetzt werden. Sie werden nicht in der Aufräumphase des Zuges abgelegt, in dem sie gespielt wurden, sondern bleiben bis zur Aufräumphase des Zuges, in dem die letzte Anweisung ausgeführt wird, im Spiel. Wird eine \emph{Dauerkarte} mehrfach gespielt (z.B. durch den \emph{THRONSAAL} aus dem \emph{Basisspiel}), bleibt die verursachende Karte ebenfalls so lange im Spiel, bis die \emph{Dauerkarte} abgelegt wird. Um anzuzeigen, dass eine \emph{Dauerkarte} in der aktuellen Aufräumphase noch nicht abgelegt wird, wird sie in eine eigene Reihe oberhalb der restlichen gespielten Karten gelegt. Die Anweisungen in späteren Zügen finden meistens zu Beginn des nächsten eigenen Zuges statt. Bei mehreren im Spiel befindlichen \emph{Dauerkarten} darf der Spieler die Reihenfolge selbst bestimmen, in der er sie abhandelt.
+	
+	\smallskip
+
+	Hinweis: Wird eine gespielte \emph{Dauerkarte} mit der Anweisung eines \emph{Weges} genutzt, bleibt sie nur über den aktuellen Zug hinaus im Spiel, wenn sie mindestens 1x mit ihrer eigentlichen Anweisung genutzt wurde (siehe NEUE REGELN, Wege).}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\footnotesize{Anweisungen (1/3)}\qquad}
+	\cardcontent{\emph{Ablegen}: Karten werden immer von der Hand abgelegt, sofern nicht anders auf der Karte angegeben. Abgelegte Karten kommen offen auf den eigenen Ablagestapel. Legt der Spieler mehrere Karten gleichzeitig ab, muss er diese den Mitspielern nicht zeigen. Ggf. muss er aber die Anzahl der abgelegten Karten \enquote{nachweisen}, z.B. beim \emph{KELLER} (aus dem \emph{Basisspiel}). Lediglich die oberste Karte des Ablagestapels muss immer sichtbar sein.
+
+	\smallskip
+
+	\emph{Aktions-Vorratsstapel}: Alle Vorratsstapel, die Karten mit dem Typ AKTION beinhalten (bei gemischten Stapeln ist die Platzhalterkarte ausschlaggebend), werden als Aktions-Vorratsstapel bezeichnet.
+	
+	\smallskip
+	
+	\emph{Aufdecken}: Der Spieler deckt die Karte(n) auf, zeigt sie allen Mitspielern und legt sie dorthin zurück, von wo er sie hat. Eine aufgedeckte Handkarte wird wieder zurück auf die Hand genommen.
+	
+	\smallskip
+	
+	\emph{Entsorgen}: Entsorgt der Spieler Karten, legt er sie offen auf den Müllstapel bzw. auf die Müllkarte, falls noch keine Karte entsorgt wurde. Entsorgte Karten können nicht wieder gekauft oder genommen werden, es sei denn, eine Karte erlaubt dies.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\footnotesize{Anweisungen (2/3)}\qquad}
+	\cardcontent{\emph{Diese Karte}: Enthält eine Karte eine Anweisung, die sich auf \enquote{diese Karte} bezieht, ist normalerweise die Karte gemeint, auf der die Anweisung steht, keine andere Karte, auf die innerhalb der Anweisung Bezug genommen wird. Eine \emph{Ausnahme} sind die \emph{Wege}, bei denen mit \enquote{diese Karte} die Aktionskarte gemeint ist, anstelle derer die Anweisung der \emph{Wege}-Karte ausgeführt wird.
+	\\
+	Beispiel: Der Kartentext vom \emph{HIRTENHUND} besagt: \enquote{Wenn du eine Karte nimmst, darfst du diese Karte aus deiner Hand spielen.} Dies bedeutet, dass der Spieler die \emph{HIRTENHUND}-Karte aus seiner Hand spielen darf, wenn er eine andere Karte nimmt.
+	
+	\smallskip
+	
+	\emph{Jene Karten}: Enthält eine Karte eine Anweisung, die sich auf \enquote{jene Karten} bezieht, sind immer die Karten gemeint, auf die auf einer Karte (\enquote{dieser Karte}) Bezug genommen wird -- es ist niemals die gerade genutzte Karte gemeint.
+	
+	\smallskip
+
+	\emph{Eine gleiche Karte}: Nur Karten, die exakt denselben Namen tragen, gelten als gleiche Karten.
+	
+	\smallskip
+	
+	\emph{Ende des Zuges}: Das Ende eines Zuges ist nach der Aufräumphase, nach dem Ziehen der neuen Kartenhand.}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\footnotesize{Anweisungen (3/3)}\qquad}
+	\cardcontent{\emph{Im Spiel}: Im Spiel befinden sich alle in diesem Zug gespielten Karten, Dauerkarten aus vorherigen Zügen und vom \emph{WIRTSHAUS}-Tableau aufgerufene Karten (aus \emph{Abenteuer}). Nicht im Spiel befinden sich bereits entsorgte Karten sowie zur Seite gelegte Karten und Karten auf \emph{Exil}-Tableaus.
+	
+	\smallskip
+	
+	\emph{Nicht-Punktekarten}: Alle Karten (auch ggf. kombinierte Karten), die den Typ PUNKTE nicht beinhalten, werden als Nicht-Punktekarten bezeichnet.
+	
+	\smallskip
+	
+	\emph{Wähle eins}: Der Spieler muss genau eine der aufgelisteten Anweisungen auswählen und sie -- soweit möglich -- ausführen.
+	
+	\smallskip
+	
+	\emph{Nehmen}: Karten, die durch Kauf oder eine Anweisung auf einer anderen Karte genommen werden, werden vom Spieler physisch an sich genommen und werden dadurch dem eigenen Kartensatz hinzugefügt. Genommene Karten werden (soweit nicht anders auf der Karte angegeben) auf den Ablagestapel gelegt.
+	
+	\smallskip
+	
+	\emph{Verbannen}: Eine Karte zu verbannen bedeutet, sie auf sein eigenes \emph{Exil}-Tableau zu legen.
+	
+	\smallskip
+	
+	\emph{Zur Seite legen}: Karten, die durch eine Anweisung zur Seite gelegt werden, befinden sich nicht im Spiel.}
 \end{tikzpicture}
 \hspace{-0.6cm}
 \begin{tikzpicture}
@@ -67,32 +935,151 @@
 	\cardstrip
 	\cardbanner{banner/white.png}
 	\cardtitle{\scriptsize{Empfohlene 10er Sätze\qquad}}
-	\cardcontent{\emph{Name:}\\
-	Karten ...
+	\cardcontent{\emph{Pferde-Intro} (\textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg des Schafes}}, \underline{Verbesserung}, Herberge, Hirtenhund, Koppel, Lastkahn, Nachschub, Pferdestall, Schlachtross, Schrott, Viehmarkt, Ziegenhirtin 
 
 	\smallskip
 
-	\emph{Name:}\\
-	Karten ...
+	\emph{Exil-Intro} (\textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg des Wurms}}, \underline{Fußmarsch}, Depot, Drahtzieher, Falknerin, Kamelzug, Kardinal, Kopfgeldjägerin, Schwarze Katze, Verschneites Dorf, Wanderin, Zufluchtsort 
 
 	\smallskip
 
-	\emph{Name:}\\
-	Karten ...
+	\emph{Pony Express} (\textit{Basisspiel} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg der Robbe}}, \underline{Stampede}, Depot, Koppel, Lastkahn, Nachschub, Schlachtross, \textit{Dorf}, \textit{Keller}, \textit{Markt}, \textit{Mine}, \textit{Töpferei}
 
 	\smallskip
 
-	\emph{Name:}\\
-	Karten ...
+	\emph{Katzen-Garten} (\textit{Basisspiel} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg des Maulwurfs}}, \underline{Plackerei}, Schrott, Schwarze Katze, Verschneites Dorf, Vertreibung, Zufluchtsort, \textit{Banditin}, \textit{Burggraben}, \textit{Garten}, \textit{Händlerin}, \textit{Vorbotin}
 
 	\smallskip
 
-	\emph{Name:}\\
-	Karten ...
+	\emph{Tierzirkus} (\textit{Intrige} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg des Pferdes}}, \underline{Kommerz}, Hirtenhund, Kamelzug, Kavallerie, Koppel, Ziegenhirtin, \textit{Adlige}, \textit{Anbau}, \textit{Handlanger}, \textit{Kerkermeister}, \textit{Mühle}}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\scriptsize{Empfohlene 10er Sätze\qquad}}
+	\cardcontent{\emph{Explosionen} (\textit{Intrige} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg des Eichhörnchens}}, \underline{Besiedlung}, Hexenzirkel, Jagdhütte, Kopfgeldjägerin, Schrott, Viehmarkt, \textit{Austausch}, \textit{Burghof}, \textit{Diplomatin}, \textit{Herumtreiberin}, \textit{Wunschbrunnen}
+	
+	\smallskip
+	
+	\emph{Innsmouth} (\textit{Seaside} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg der Ziege}}, \underline{Investition}, Fischer, Hexenzirkel, Hirtenhund, Lastkahn, Viehmarkt, \textit{Entdecker}, \textit{Fischerdorf}, \textit{Hafen}, \textit{Karawane}, \textit{Schatzkarte}
 
 	\smallskip
 
-	\emph{Name:}\\
-	Karten ...}
+	\emph{Ruritanien} (\textit{Seaside} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg des Affen}}, \underline{Bündnis}, Dorfanger, Falknerin, Kavallerie, Kopfgeldjägerin, Schlitten, \textit{Ausguck}, \textit{Außenposten}, \textit{Lagerhaus}, \textit{Schmuggler}, \textit{Taktiker}
+
+	\smallskip
+
+	\emph{Abi 2020} (\textit{Alchemisten} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg der Eule}}, \underline{Verzögerung}, Brennofen, Hexenzirkel, Jagdhütte, Kavallerie, Pferdestall, Verschneites Dorf, Wanderin, \textit{Universität}, \textit{Verwandlung}, \textit{Weinberg}
+
+	\smallskip
+
+	\emph{Zeitlich limitiertes Angebot} (\textit{Blütezeit} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg des Frosches}}, \underline{Verzweiflung}, Fischer, Nachschub, Schlachtross, Vertreibung, Wanderin, \textit{Arbeiterdorf}, \textit{GroBer Markt}, \textit{Hausierer}, \textit{Münzer}, \textit{Talisman}}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\scriptsize{Empfohlene 10er Sätze\qquad}}
+	\cardcontent{\emph{Geburt einer Nation} (\textit{Blütezeit} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg des Otters}}, \underline{Reiche Ernte}, Depot, Drahtzieher, Kamelzug, Koppel, Viehmarkt, \textit{Denkmal}, \textit{Gesindel}, \textit{Handelsroute}, \textit{Stadt}, \textit{Steinbruch}
+
+	\smallskip
+
+	\emph{Leben im Exil} (\textit{Reiche Ernte} + \textit{Die Gilden} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg des Maultiers}}, \underline{Enklave}, Depot, Herberge, Pferdestall, Schrott, Wache, \textit{Festplatz}, \textit{Harlekin}, \textit{Weiler}, \textit{Steuereintreiber}, \textit{Wandergeselle}
+
+	\smallskip
+
+	\emph{Der Thrill der Jagd} (\textit{Reiche Ernte} + \textit{Die Gilden} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg der Ratte}}, \underline{Verfolgung}, Dorfanger, Drahtzieher, Kamelzug, Kopfgeldjägerin, Schwarze Katze, \textit{Menagerie}, \textit{Pferdehändler}, \textit{Treibjagd}, \textit{Turnier}, \textit{Metzger}
+
+	\smallskip
+
+	\emph{Blauer Ozean} (\textit{Hinterland} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg der Schildkröte}}, \underline{Verbannung}, Dorfanger, Falknerin, Hirtenhund, Schlitten, Schwarze Katze, \textit{Fahrender Händler}, \textit{Kartograph}, \textit{Katzengold}, \textit{Markgraf}, \textit{Tunnel}
+
+	\smallskip
+
+	\emph{Kreuzung} (\textit{Hinterland} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg der Maus (mit Wegkreuzung)}}, \underline{Wagnis}, Drahtzieher, Herberge, Kardinal, Nachschub, Pferdestall, \textit{Aufbau}, \textit{Feilscher}, \textit{Fruchtbares Land}, \textit{Nomadencamp}, \textit{Stallungen}}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\scriptsize{Empfohlene 10er Sätze\qquad}}
+	\cardcontent{\emph{Freundschaftliches Gemetzel} (\textit{Dark Ages (mit Unterschlupf)} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg des Kamels}}, \underline{Ausritt}, Falknerin, Jagdhütte, Kardinal, Viehmarkt, Ziegenhirtin, \textit{Altar}, \textit{Bettler}, \textit{Festung}, \textit{Katakomben}, \textit{Marktplatz} 
+
+	\smallskip
+
+	\emph{Geschenkte Pferde} (\textit{Dark Ages (mit Unterschlupf)} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg des Schmetterlings}}, \underline{Gutes Geschäft}, Kamelzug, Koppel, Schlachtross, Schrott, Vertreibung, \textit{Jagdgründe}, \textit{Knappe}, \textit{Ratten}, \textit{Raubzug}, \textit{Weiser}
+
+	\smallskip
+
+	\emph{Pferdehaare} (\textit{Abenteuer} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg des Ochsen}}, Pilgerfahrt, Depot, Falknerin, Schlachtross, Schlitten, Vertreibung, \textit{Elster}, \textit{Königliche Kutsche}, \textit{Rattenfänger}, \textit{Relikt}, \textit{Wildhüter} 
+
+	\smallskip
+
+	\emph{Früher oder später} (\textit{Abenteuer} + \underline{Ereignisse}):\\
+	\underline{Plackerei}, Mission, Dorfanger, Drahtzieher, Lastkahn, Stallbursche, Wache, \textit{Amulett}, \textit{Karawanenwächter}, \textit{Riese}, \textit{Verlies}, \textit{Zerstörung}
+
+
+	\smallskip
+
+	\emph{Keine Anzahlung} (\textit{Empires} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg des Schweins}}, \underline{Aufstieg}, Depot, Kavallerie, Schlitten, Viehmarkt, Wanderin, \textit{Ingenieurin}, \textit{Katapult/Felsen}, \textit{Krone}, \textit{Stadtviertel}, \textit{Villa}}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{\scriptsize{Empfohlene 10er Sätze\qquad}}
+	\cardcontent{\emph{Umleitungen und Abkürzungen} (\textit{Empires} + \underline{Ereignisse}):\\
+	\underline{Transport}, Triumphbogen, Fischer, Kamelzug, Verschneites Dorf, Wache, Zufluchtsort, \textit{Lehnsherr}, \textit{Opfer}, \textit{Siedler/Emsiges Dorf}, \textit{Wilde Jagd}, \textit{Zauberin}
+
+	\smallskip
+
+	\emph{Nutze die Nacht } (\textit{Nocturne} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg des Schafes}}, \underline{Nutze den Tag}, Falknerin, Herberge, Hirtenhund, Lastkahn, Nachschub, \textit{Attentäter}, \textit{Exorzistin}, \textit{Kloster}, \textit{Schuster}, \textit{Teufelswerkstatt}
+
+	\smallskip
+
+	\emph{Tierkekse} (\textit{Nocturne} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg des Chamäleons}}, \underline{Verbesserung}, Brennofen, Jagdhütte, Schwarze Katze, Stallbursche, Ziegenhirtin, \textit{Fee}, \textit{Getreuer Hund}, \textit{Heiliger Hain}, \textit{Puka}, \textit{Schäferin}
+
+	\smallskip
+
+	\emph{Abwarten} (\textit{Renaissance} + \textit{\underline{Wege}} + \underline{Ereignisse}):\\
+	\textit{\underline{Weg der Schildkröte}}, \underline{Finsterer Plan}, Fischer, Hexenzirkel, Kavallerie, Vertreibung, Ziegenhirtin, \textit{Anwerber}, \textit{Freibeuterin}, \textit{Goldmünze}, \textit{Priester}, \textit{Zepter}
+
+	\smallskip
+
+	\emph{Dorfbewohner-Wahnsinn} (\textit{Renaissance} + \underline{Ereignisse}):\\
+	\underline{Forderung}, Akademie, Brennofen, Kardinal, Pferdestall, Stallbursche, Wanderin, \textit{Fahnenträger}, \textit{Grenzposten}, \textit{Gewürze}, \textit{Patron}, \textit{Seidenhändlerin}}
+\end{tikzpicture}
+\hspace{-0.6cm}
+\begin{tikzpicture}
+	\card
+	\cardstrip
+	\cardbanner{banner/white.png}
+	\cardtitle{Platzhalter\quad}
 \end{tikzpicture}
 \hspace{0.6cm}

@@ -10,6 +10,34 @@ You will also need to download the TrajanPro font. See these two links: [Regular
 
 **Feel free to add further card sets, editions, languages or formats or correct some errors or typos. To do so fork the project and open a pull request or use the issues section if you aren't familiar with LaTex and/or Github.**
 
+## Download the PDFs
+
+For those of you who are not familiar with Github here some short words on where to find the PDFs and how to download them.
+
+### Get all
+
+You can copy the whole project and download it as a `.zip` file by clicking on **Code** and **Download ZIP**. You can then extract it on your computer and will find the PDFs directly in the folder you extracted.
+
+![Download the whole project](images/download_all.png)
+
+### Get one
+
+You can also select just the one you want. Simply click the one you like either in the files list above or in the following list and then the **Download** button on the page that opens. Available styles:
+
+- [Black Portrait](cards_de_all_portrait.pdf)
+- [Setcolor Portrait](cards_de_all_portrait_setcolor.pdf)
+- [Black Landscape](cards_de_all_landscape.pdf)
+- [Setcolor Landscape](cards_de_all_landscape_setcolor.pdf)
+
+![Select the PDF](images/download_one1.png)
+![Download the file](images/download_one2.png)
+
+## Printing the PDF
+
+You can read more about the different ideas on how to print the card dividers on Eikos [website](http://www.phenx.de/dominion-kartentrenner/). I personally print them on A4 self-adhesive paper like [these](https://www.avery-zweckform.com/produkt/universal-etiketten-l4735rev-100) and stick it onto thick black cardboards like [these](https://www.amazon.de/Folia-614-50-90-Fotokarton/dp/B000OZN29C/ref=pd_lpo_vtph_229_lp_tr_t_2?_encoding=UTF8&psc=1&refRID=QXMVJYTY91CVWSV4WC7V).
+
+**Remember that your printer setting may scale the output**. For my use case, this is absolutely fine, as the cut output is nearly the same with as the Dominion cards and fits perfectly into my box. If you want the slightly bigger ones, set the no-scaling-option before you print it.
+
 ## Compiling the PDFs
 
 You can use TexStudio or some other editor to edit the files and compile the PDFs. Remember to change your standard compiler to *lualatex* if you compile the PDFs with your editor.
@@ -42,12 +70,6 @@ To switch between the portrait and landscape mode take a look at ```cards.tex```
 ```
 
 Uncomment the version you want to use and comment out the other one.
-
-## Printing the PDF
-
-You can read more about the different ideas on how to print the card dividers on Eikos [website](http://www.phenx.de/dominion-kartentrenner/). I personally print them on A4 self-adhesive paper like [these](https://www.avery-zweckform.com/produkt/universal-etiketten-l4735rev-100) and stick it onto thick black cardboards like [these](https://www.amazon.de/Folia-614-50-90-Fotokarton/dp/B000OZN29C/ref=pd_lpo_vtph_229_lp_tr_t_2?_encoding=UTF8&psc=1&refRID=QXMVJYTY91CVWSV4WC7V).
-
-**Remember that your printer setting may scale the output**. For my use case, this is absolutely fine, as the cut output is nearly the same with as the Dominion cards and fits perfectly into my box. If you want the slightly bigger ones, set the no-scaling-option before you print it.
 
 ## Global variables
 
@@ -90,6 +112,7 @@ Further defined colors for the card sets:
 - empires
 - nocturne
 - renaissance
+- menagerie
 - promo
 
 ## Shortcuts / defined commands
@@ -97,10 +120,10 @@ Further defined colors for the card sets:
 The ```format/_shortcuts.tex``` defines some frequently used commands to use them as a shortcut.
 
 - coin ( <img src="https://github.com/poet-of-the-fall/carddivider/blob/master/icons/coin.png?raw=true" width="16"> 
-): Takes one optional argument and draws a coin containing the text of the given argument (usage: ```\coin[2]``` draws a coin containing a "2").
+): Takes one optional argument and draws a coin containing the text of the given argument (usage: ```\coin[2]``` draws a coin containing a "2", ```\coin``` draws an empty one).
 
 - hex( <img src="https://github.com/poet-of-the-fall/carddivider/blob/master/icons/hex.png?raw=true" width="16"> 
-): Takes one optional argument and draws a hex containing the text of the given argument (usage: ```\hex[1]``` draws a hex containing a "1").
+): Takes one optional argument and draws a hex containing the text of the given argument (usage: ```\hex[1]``` draws a hex containing a "1", ```\hex```draws an empty one).
 
 - victorypointtoken( <img src="https://github.com/poet-of-the-fall/carddivider/blob/master/icons/victorypointtoken.png?raw=true" width="16"> 
 ): Draws a victory point token (the one containing with a "1" on it, usage: ```\victorypointtoken```). 

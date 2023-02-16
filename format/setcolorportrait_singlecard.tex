@@ -2,8 +2,8 @@
 %   ---------------------------------------
 
 %   TikZ/PGF size settings for cards
-\pgfmathsetmacro{\cardwidth}{\the\paperwidth}
-\pgfmathsetmacro{\cardheight}{\the\paperheight}
+\pgfmathsetmacro{\cardwidth}{63mm} % {\the\paperwidth}
+\pgfmathsetmacro{\cardheight}{111mm} % {\the\paperheight}
 \pgfmathsetlengthmacro{\bannerwidth}{3.3cm}
 \pgfmathsetlengthmacro{\iconheight}{0.5cm}
 \pgfmathsetmacro{\iconoffset}{0.175cm}
@@ -36,15 +36,15 @@
 \newcommand{\card}{
 	% Cut marks
 	% Vertical left
-	% \draw ([xshift=0.1cm,yshift=-\cardoffset]0,0) -- ([xshift=0.1cm,yshift=\cardheight+\cardoffset]0,0);
+	\draw ([xshift=0.1cm,yshift=-\cardoffset]0,0) -- ([xshift=0.1cm,yshift=\cardheight+\cardoffset]0,0);
 	% Vertical right
-	% \draw ([xshift=\cardwidth-0.1cm,yshift=-\cardoffset]0,0) -- ([xshift=\cardwidth-0.1cm,yshift=\cardheight+\cardoffset]0,0);
+	\draw ([xshift=\cardwidth-0.1cm,yshift=-\cardoffset]0,0) -- ([xshift=\cardwidth-0.1cm,yshift=\cardheight+\cardoffset]0,0);
 	% Horizontal bottom
-	% \draw ([xshift=-\cardoffset,yshift=0.1cm]0,0) -- ([xshift=\cardwidth+\cardoffset,yshift=0.1cm]0,0);
+	\draw ([xshift=-\cardoffset,yshift=0.1cm]0,0) -- ([xshift=\cardwidth+\cardoffset,yshift=0.1cm]0,0);
 	% Horizontal top (upper)
-	% \draw ([xshift=-\cardoffset,yshift=\cardheight-0.1cm]0,0) -- ([xshift=\cardwidth+\cardoffset,yshift=\cardheight-0.1cm]0,0);
+	\draw ([xshift=-\cardoffset,yshift=\cardheight-0.1cm]0,0) -- ([xshift=\cardwidth+\cardoffset,yshift=\cardheight-0.1cm]0,0);
 	% Horizontal top (lower)
-	% \draw ([xshift=-\cardoffset,yshift=\cardheight-0.3cm]0,0) -- ([xshift=\cardwidth+\cardoffset,yshift=\cardheight-0.3cm]0,0);
+    \draw ([xshift=-\cardoffset,yshift=\cardheight-0.3cm]0,0) -- ([xshift=\cardwidth+\cardoffset,yshift=\cardheight-0.3cm]0,0);
 	% Black card frame
 	\node [anchor=south west,fill=\cardcolor,minimum width=\cardwidth,minimum height=\cardheight] (main) at (0,0) {};
 	% White content area
